@@ -1,0 +1,27 @@
+:root{
+    --dark: #395460;
+    --light: #d2cbb0 ;
+    --mid: #0b6b99;
+    --clear: #08a9ce;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .subtitle {
+    border-style:solid;
+    
+    border-width: 0px 4px 0px 0px;
+    padding: 10px;
+    float: left;
+    width: 25%;
+  }
+
+  .content {
+    border-style:hidden;
+    border-width: 20px;
+    padding: 10px;
+    float: left;
+    width: 75%;
+  }
