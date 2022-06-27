@@ -31,7 +31,7 @@
     width:100%
   }
 
-  p{
+  p, LI{
     font-size: small;
 }
 
@@ -54,6 +54,7 @@ h2 {
 
     nav {
     display: flex;
+    flex-direction: row;
     float: right;
 }
   
@@ -77,29 +78,47 @@ h2 {
     padding: 10px;
     text-align: right;
     float: left;
-    width: 33%;
+    width: 25%;
   }
 
   .content {
-    border-style:hidden;
-    border-width: 20px;
-    padding: 10px;
-    float: left;
-    width: 66%;
+    flex: 4;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
   }
 
   .cardA {
     border-style: solid;
-    border-width: 10px;
-    padding: 10px;
-    float: left;
+    border-radius: 15px;
+    border-width: 1px;
+    align-content: stretch;
     width: 100%;
-  }
+    gap: 40px
+}
 
   .cardB {
     border-style: solid;
-    border-width: 10px;
-    padding: 10px;
-    float: left;
+    border-radius: 15px;
+    border-width: 1px;
+    align-content: stretch;
     width: 50%;
+    gap: 40px;
+  }
+
+  img{
+  height: 80%;
+  width: 80%;
+  }
+
+  @media screen and (max-width: 950px) {
+ .content, .carda, .cardb{width:100%}
+
+ .subtitle{
+    width:100%;
+    text-align: left;
+    border-width: 0px 0px 4px 0px;
+ }
   }
