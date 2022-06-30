@@ -15,8 +15,8 @@ Repository has several GIT Commits, following progress of challenge, have a desc
     
 ## Link
 
-[link to deployed APP](https://trevtal.github.io/M01-Challenge/)
+[link to deployed APP](https://trevtal.github.io/M02-Challenge/)
 
 ## Screenshot
 
-![Screenshot](https://github.com/TREVTAL/M01-Challenge/blob/master/ASSETS/assets/01-html-css-git-homework-demo.png?raw=true)
+![Screenshot](https://github.com/TREVTAL/M02-Challenge/blob/main/assets/Images/screenshot.jpg?raw=true)
